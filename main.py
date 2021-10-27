@@ -24,7 +24,6 @@ fnameL = 'imgL_'
 
 stime = 0
 model = models.load_model('cnn_model.h5')
-#model_RGB = models.load_model('cnn_model_RGB.h5')
 def imgin():
     i = 100
 
